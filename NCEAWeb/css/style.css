@@ -1,0 +1,126 @@
+
+@font-face{
+	font-family:'ambleregular';
+	src: url('fonts/Amble-Regular-webfont.eot') format('embedded-opentype'),
+	url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+	url('fonts/Amble-Regular-webfont.svg') format('svg');
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#logo{
+	margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+	width: 100%;
+	position: relative;
+}
+
+
+
+body{
+	background-color: lightgrey;	
+}
+
+
+
+nav {
+	text-align: center;
+	margin-top: -3vw;
+	
+}
+
+nav ul {
+	display: inline-flex;
+	width: 100%;
+	
+}
+
+nav ul li{
+	width: 16.6%;
+	padding-top: 3%;
+	padding-left: 1.1%;
+	padding-right: 1.1%;
+	padding-bottom: 1.1%;
+	
+	margin-left:0.6%;
+	margin-right: 0.6%;
+	
+	background-color: #ff8500;
+	border-radius: 1.5vw;
+	 list-style: none;
+	 
+}
+
+nav ul li a{
+	color: black;
+	font-size: 3vw;
+	 text-decoration: none; 
+}
+
+
+
+
+
+ .site_nav ul{
+	background-color: gray;
+	border-radius: 10px;
+    margin: 5px;
+}
+
+h1{
+	color: rgb(60,115,60);
+	text-align: center;
+	padding: 5px;
+}
+
+
+.site_nav{
+	text-align: center;
+}
+
+.site_nav ul li{
+	background-color: white;
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    border-radius: 2.5vw;
+    width: 235px;
+    height: 400px;
+}
+
+.site_nav ul li img{
+	border-radius: 2.5vw; 
+	width: 104%;
+	margin: -4px;
+	margin-top: -5px;
+}
+
+.site_nav ul li a{
+	 text-decoration: none;
+	 text-align: center;
+}
+
+
+.descript{
+	color: black;
+}
+
+
+
+
+footer {
+    position: scroll;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
